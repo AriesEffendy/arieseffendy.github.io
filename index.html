@@ -1,126 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/asssets/image/icon.png" type="image/x-icon">
-    <title>My Portofolio | Aries Effendy</title>
-    <link rel="stylesheet" href="asssets/styles/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="/asssets/image/icon.png" type="image/x-icon"/>
+    <title>My Portfolio | Aries Sughali Effendy</title>
+    <link rel="stylesheet" href="asssets/styles/style.css"/>
     <!-- Google Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"/>
 </head>
 <body>
     <header>
         <nav class="menu">
-            <!-- <div class="menu-toggle" onclick="toggleMenu()">☰</div> -->
             <ul id="menu-list">
-                <li><a href="#Home"><img src="asssets/image/home.png" alt="home"></a></li>
-                <li><a href="#About"><img src="asssets/image/about.png" alt="about"></a></li>
-                <li><a href="#Work"><img src="asssets/image/work.png" alt="work"></a></li>
-                <li><a href="#Skill"><img src="asssets/image/skill.png" alt="skill"></a></li>
-                <li><a href="#Project"><img src="asssets/image/project.png" alt="project"></a></li>
-                <li><a href="#connect"><img src="asssets/image/contact.png" alt="contact"></a></li>
+                <li><a href="#Home"><img src="asssets/image/home.png" alt="home" /></a></li>
+                <li><a href="#About"><img src="asssets/image/about.png" alt="about" /></a></li>
+                <li><a href="#Work"><img src="asssets/image/work.png" alt="work" /></a></li>
+                <li><a href="#Skill"><img src="asssets/image/skill.png" alt="skill" /></a></li>
+                <li><a href="#Project"><img src="asssets/image/project.png" alt="project" /></a></li>
+                <li><a href="#connect"><img src="asssets/image/contact.png" alt="contact" /></a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <!-- Home / Profile -->
-        <div id="Home" class="container">
-            <div>
-                <img src="asssets/image/img-profile.png" alt="img-profile">
+        <section id="Home" class="container">
+            <div class="profile-image">
+                <img src="asssets/image/img-profile.png" alt="img-profile" />
             </div>
-            <div>
+            <div class="profile-info">
                 <h1>Aries Sughali Effendy</h1>
-                <h2>Software Quality Assurance</h2>
+                <h2>Quality Assurance Engineer & Technical Support</h2>
+                <p class="location">Merauke, Indonesia</p>
                 <div class="buttons">
-                    <a href="https://www.linkedin.com/in/aries-sughali-effendy/" target="_blank">
+                    <a href="https://www.linkedin.com/in/aries-sughali-effendy/" target="_blank" rel="noopener">
                         <button class="btn-linkedin">LinkedIn</button>
                     </a>
-                    <a href="https://github.com/AriesEffendy" target="_blank">
+                    <a href="https://github.com/AriesEffendy" target="_blank" rel="noopener">
                         <button class="btn-github">GitHub</button>
                     </a>
-                    <a href="asssets/file/CV-Aries Effendy.pdf" download class="download-btn">
+                    <a href="asssets/file/CV-Aries Effendy.pdf" download class="download-btn" aria-label="Download CV">
                         <button class="btn-CV">Download CV</button>
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
+
         <!-- About Me -->
-        <div id="About" class="container">
-            <div>
+        <section id="About" class="container">
+            <div class="about-left">
                 <h2>About Me</h2>
-                <p>Hi,  <strong>I'm Aries Sughali Effendy</strong>, 
-                    a passionate<strong> Quality Assurance Engineer</strong> with <strong>1 year of experience </strong>in software testing. <br> 
-                    I thrive on ensuring software quality through meticulous manual and automated testing, 
-                    focusing on efficiency, accuracy, and reliability. <br>
-                    <strong>My expertise</strong> lies in Cypress, Playwright, 
-                    JMeter, and Postman, allowing me to create seamless testing workflows that enhance software performance 
-                    and user experience.</p>
+                <p>
+                    Hi, <strong>I'm Aries Sughali Effendy</strong>. I hold a Bachelor's degree in Electrical Engineering and have professional experience in Quality Assurance and Technical Support. I focus on ensuring software quality through careful manual and automated testing, while also supporting device installations and operational monitoring for MPOS systems.
+                </p>
+
+                <h3>Professional Summary</h3>
+                <p>
+                    Detail-oriented Quality Assurance Engineer and Technical Support Specialist with hands-on experience in manual and automation testing, device troubleshooting, and technical operations. Skilled in designing and executing test cases, identifying software defects, and ensuring smooth functionality of MPOS devices and applications. Experienced with Cypress, Playwright, Postman, and Azure DevOps. Currently building programming experience in web and mobile development and seeking part-time opportunities to grow as a programmer.
+                </p>
             </div>
-            <div >
+
+            <div class="about-right">
                 <h2>What I Do</h2>
                 <ul style="list-style: none; padding: 0;">
-                    <li>🚀 <strong>Test Planning & Execution</strong> - Designing comprehensive test cases and executing detailed manual testing to identify and resolve critical defects.</li>
-                    <li>🤖 <strong>Automation Testing</strong> -  Developing robust automated scripts using <strong>Cypress & Playwright</strong> to streamline testing processes.</li>
-                    <li>📊 <strong>Performance Testing</strong> -  Evaluating system performance under load using <strong>JMeter</strong> to ensure scalability.</li>
-                    <li>📝 <strong>Defect Tracking & Documentation</strong> -  Maintaining structured bug reports and test logs for efficient issue resolution.</li>
+                    <li>🚀 <strong>Test Planning & Execution</strong> - Designing comprehensive test cases and executing detailed manual testing.</li>
+                    <li>🤖 <strong>Automation Testing</strong> - Developing automated scripts using <strong>Cypress & Playwright</strong>.</li>
+                    <li>📊 <strong>Performance Testing</strong> - Evaluating system performance using <strong>JMeter</strong>.</li>
+                    <li>🔧 <strong>Technical Support</strong> - Installing/configuring MPOS devices and monitoring transaction data for operational needs.</li>
                 </ul>
             </div>
-        </div>
+        </section>
+
         <!-- Work Experience -->
-        <div id="Work" class="container">
+        <section id="Work" class="container">
             <h2>Professional Experience</h2>
-            <div >
-                <h3>🔸 QA Engineer at PT Dwidata Talenta Prima (TALDIO) (2023 - 2024)</h3>
+
+            <article>
+                <h3>🔸 Technical Support – PT Transaksi Monitor Digital (July 2025 – Present)</h3>
                 <ul>
-                    <li>✔ Created comprehensive test cases to ensure functionality and reliability</li>
-                    <li>✔ Performed manual testing to detect and fix defects</li>
-                    <li>✔ Developed and maintained automated scripts using <strong>Cypress & Playwright</strong></li>
-                    <li>✔ Conducted load testing with <strong>JMeter</strong> to measure system performance</li>
-                    <li>✔ Managed test documentation and defect tracking for improved issue resolution</li>
+                    <li>✔ Installed and configured MPOS devices and supporting applications at client locations.</li>
+                    <li>✔ Monitored device usage, performance, and potential hardware issues to ensure reliable operations.</li>
+                    <li>✔ Ensured availability and extraction of transaction data to support tax and operational reporting.</li>
+                    <li>✔ Provided frontline technical support and troubleshooting for MPOS hardware and software.</li>
+                    <li>✔ Coordinated with internal teams for maintenance, updates, and escalations.</li>
                 </ul>
-            </div>
-            <div >
-                <h3>🔸 Administrative Staff at Dinas PUPR Provinsi Maluku (2019 - 2023)</h3>
+            </article>
+
+            <article>
+                <h3>🔸 QA Engineer – PT Dwidata Talenta Prima (TALDIO) (Sep 2023 – Sep 2024)</h3>
                 <ul>
-                    <li>✔ Assisted in land data management for the <strong>TORA program</strong></li>
-                    <li>✔ Conducted data monitoring & evaluation to ensure accuracy</li>
-                    <li>✔ Managed and resolved data inconsistencies to support project execution</li>
+                    <li>✔ Created and executed 100+ test cases based on user stories and acceptance criteria.</li>
+                    <li>✔ Performed manual testing and identified functional defects.</li>
+                    <li>✔ Developed automated tests using <strong>Cypress & Playwright</strong>.</li>
+                    <li>✔ Conducted load testing using <strong>JMeter</strong>.</li>
+                    <li>✔ Managed bug reports and defect tracking via <strong>Azure DevOps</strong>.</li>
                 </ul>
-            </div>
-        </div>
+            </article>
+
+            <article>
+                <h3>🔸 Administrative Staff – Dinas PUPR Provinsi Maluku (Jan 2019 – Aug 2023)</h3>
+                <ul>
+                    <li>✔ Managed land data for the TORA program, monitored and evaluated project data, and resolved data inconsistencies.</li>
+                </ul>
+            </article>
+        </section>
+
         <!-- Skill -->
-        <div id="Skill" class="container">
-            <div>
-                <h2>Technical & Soft Skills</h2>
-                <ul>
-                    <li>✅ <strong>Automation & Testing Tools:</strong> Cypress, Playwright, JMeter, Katalon Studio</li>
-                    <li>✅ <strong>API & Performance Testing:</strong> Postman, JMeter</li>
-                    <li>✅ <strong>Project Management:</strong> Azure DevOps, Jira, Trello</li>
-                    <li>✅ <strong>Programming & Databases:</strong> JavaScript, SQL</li>
-                    <li>✅ <strong>Version Control:</strong> Git, GitHub</li>
-                    <li>✅ <strong>Agile & Scrum:</strong> Experience in Agile environments with Scrum methodology</li>
-                    <li>✅ <strong>Collaboration & Communication:</strong> Strong teamwork, problem-solving, and documentation skills</li>
-                </ul>
-            </div>
-        </div>
+        <section id="Skill" class="container">
+            <h2>Skills</h2>
+
+            <p><strong>Technical Support:</strong> Hardware & Software Troubleshooting, MPOS System Handling, Device Monitoring, Remote Support Tools, Network Basics (Ping/Telnet), Log Analysis (basic), Data Extraction</p>
+
+            <p><strong>Testing Tools:</strong> Cypress, Playwright, Katalon Studio, Postman, JMeter (basic)</p>
+
+            <p><strong>Test Skills:</strong> Manual Testing, Automation Testing, Test Case Design, Bug Reporting, Functional Testing, Regression Testing, API Testing</p>
+
+            <p><strong>Tech & Tools:</strong> JavaScript, SQL (basic), HTML/CSS, Azure DevOps, Figma, MS Office</p>
+
+            <p><strong>Methodology:</strong> Agile / Scrum</p>
+
+            <p><strong>Soft Skills:</strong> Communication, Teamwork, Problem Solving, Adaptability, User Support</p>
+        </section>
+
         <!-- Project -->
-        <div id="Project" class="container">
-            <h1> Portfolio - On progress</h1>
-        </div>
+        <section id="Project" class="container">
+            <h2>Portfolio</h2>
+            <p><strong>Status:</strong> Portfolio is currently under development. Selected projects and code will be published soon.</p>
+            <p>In the meantime, you can view my CV online or GitHub:</p>
+        </section>
+
         <!-- Contact Me -->
-        <div id="connect" class="container">
+        <section id="connect" class="container">
             <h2>Connect to Me</h2>
             <ul>
                 <li>📧 <strong>Email:</strong> <a href="mailto:arieseffendy01@gmail.com">arieseffendy01@gmail.com</a></li>
-                <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aries-sughali-effendy/" target="_blank">LinkedIn Profile</a></li>
+                <li>📞 <strong>Phone:</strong> 0812-4787-8660</li>
+                <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aries-sughali-effendy/" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+                <li>🌐 <strong>CV Online:</strong> <a href="https://aries.github.io" target="_blank" rel="noopener">https://aries.github.io</a></li>
             </ul>
-        </div>
+        </section>
     </main>
+
     <footer>
-        <p>Browse my portfolio and stay connected!</p>
+        <p>© Aries S. Effendy — Building portfolio and growing as a programmer. Available for part-time programming roles.</p>
     </footer>
 </body>
 </html>
